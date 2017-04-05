@@ -58,7 +58,7 @@
             out.update()
             out.draw()
         }
-        out.start = () => window.setTimeout(()=> out.tick(), 200)
+        out.start = () => window.setInterval(()=> out.tick(), 200)
         return out
     }
 
